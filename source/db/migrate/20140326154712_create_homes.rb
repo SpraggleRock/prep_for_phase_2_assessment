@@ -4,6 +4,8 @@ class CreateHomes < ActiveRecord::Migration
  			t.integer :cat_id
  			t.integer :user_id
  			t.string :address
+
+      t.timestamps
   	end
   end
 end
