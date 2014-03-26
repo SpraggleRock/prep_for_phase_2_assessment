@@ -1,3 +1,4 @@
+#Landing Page
 get '/' do
   erb :index
 end
