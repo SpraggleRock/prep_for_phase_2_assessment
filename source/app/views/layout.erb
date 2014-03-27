@@ -23,20 +23,9 @@
     <% if session[:user_id] %>
       <a href="/sign_out">Sign Out</a>
     <% else %>
-      <a href="/sign_in">Sign In</a>
+      <a id="sign_in" href="/sign_in">Sign In</a>
     <%end%>
   </nav>
   <%= yield %>
 </body>
 </html>
-
-<form action="">
-  <input type="text">
-  <input type="text">
-  <input type="text">
-  <select name="" id="">
-    <option value=""></option>
-    <option value=""></option>
-    <option value=""></option>
-  </select>
-</form>

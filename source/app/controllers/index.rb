@@ -3,16 +3,12 @@ get '/' do
   erb :index
 end
 
-get '/sign_in'
-
-end
-
 post '/sign_in'
 
 end
 
 get '/sign_out'
-
+  session.clear
 end
 #-------------- SIGN IN WITH TWITTER -------------
 
