@@ -11,7 +11,7 @@ post '/sign_in'
 
 end
 
-delete '/sign_out'
+get '/sign_out'
 
 end
 #-------------- SIGN IN WITH TWITTER -------------
